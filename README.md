@@ -2,9 +2,9 @@ Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
 
 [Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
-## *zet hier de titel van je website*
+## *game of thrones*
 
-*zet hier een korte beschrijving van de informatie die je kunt vinden op je website*
+**
 
 ## Planning
 Werk de planning af van boven naar beneden<br>
