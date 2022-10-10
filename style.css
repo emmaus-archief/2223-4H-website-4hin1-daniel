@@ -20,7 +20,9 @@ body * {                          /* geldt voor alles in body */
   margin: 0px;                    /* standaard marge 0 */
 }
 
-#hoofdtitel { color:silver;  }
+#hoofdtitel { color:silver;
+              word-spacing: 20px;
+              }
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
