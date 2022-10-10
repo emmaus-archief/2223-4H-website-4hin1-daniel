@@ -1,51 +1,65 @@
+/* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
-html, body {  
-  font-family: serif;
-  margin: 10px;                 
-  background-color: #5a7179; 
-  color: #303030;   
+* {                                          /* geldt voor alles */
+    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
+    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+}
+
+/* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
+
+html, body {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */
+  background-color: #5a717a;    /* achtergrondkleur lichtgrijs */
+  color: #303030;  
+  font-family: serif;/* tekstkleur donkergrijs */
 }  
 
-body * {
-  overflow: hidden;
-  box-sizing: border-box;     
-  margin: 0px;   
+body * {                          /* geldt voor alles in body */
+  overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;                    /* standaard marge 0 */
 }
+
+#hoofdtitel { color:silver;  }
 
 .page {
-  width: 700px;
-  margin: 10px auto;         
+  width: 700px;                   /* vaste breedte van 700 pixels */
+  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
-header, footer {                 
+header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
 main {                       
-  text-align: justify;       }
+  text-align: justify;            /* tekst uitvullen */}
 
-h1, h2, h3 {                     
+h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;            
+  text-align: center;             /* tekst centreren */
 } 
 
 p {
   margin: 10px 0px;
-  text-align: justify;           
+  text-align: justify;            /* tekst links en rechts uitvullen */
 }
+
+/* Indeling voor hoofd pagina */
 
 .kolomLinks {
   float:left;
   width:250px;
-  padding-right:15px;         
+  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
   float:left;
   width: 450px;
 }
 .kolomStop {
-  clear:both;
+  clear:both;                   /* stop met floaten */
 }
+
+/* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
       color: skyblue;
@@ -65,6 +79,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
+/* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
     margin: auto;
