@@ -103,9 +103,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #FE5800;
 }
 
 nav li a.active {
-    background-color: #aaaaaa
+    background-color: #FE5800
 }
