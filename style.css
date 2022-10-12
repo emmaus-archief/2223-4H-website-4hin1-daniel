@@ -9,8 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #5a717a;    /* achtergrondkleur lichtgrijs */
-  color: #303030;  
+  background-image: linear-gradient(#939393 0%, #676767 100%);/*/* achtergrondkleur lichtgrijs */ 
   font-family: serif;/* tekstkleur donkergrijs */
 }  
 
@@ -20,13 +19,10 @@ body * {                          /* geldt voor alles in body */
   margin: 0px;                    /* standaard marge 0 */
 }
 
-#hoofdtitel { color:silver;
-              word-spacing: 20px;
-              }
-
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 100%;                   /* vaste breedte van 700 pixels */
+  margin: 10px auto; 
+  /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -34,11 +30,14 @@ header, footer {                  /* geldt voor header en footer */
 }
 
 main {                       
-  text-align: justify;            /* tekst uitvullen */}
+  text-align: justify; 
+  /* tekst uitvullen */}
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
+  text-align: center;    
+  color:#FE5800;
+  word-spacing:20px; /* tekst centreren */
 } 
 
 p {
@@ -64,7 +63,7 @@ p {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color:#FE5800;
 }
 
 .smalltext {
@@ -73,7 +72,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: #FE5800;
     text-decoration: none;
 }
 
@@ -108,5 +107,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #aaaaaa
 }
