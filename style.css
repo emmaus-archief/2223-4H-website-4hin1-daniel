@@ -19,10 +19,34 @@ body * {                          /* geldt voor alles in body */
   margin: 0px;                    /* standaard marge 0 */
 }
 
-.page {
+.title {
   width: 100%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto; 
   /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+}
+.pagehome{
+  height: 300px;
+  width: 300px;
+  border: solid 10px;
+  float:left;
+  margin: 30px;
+  
+
+}
+
+.pagehome2{
+  height: 300px;
+  width: 300px;
+  border: solid 10px;
+  float:left;
+  position: relative; 
+  top: 0px;
+  left: 570px;
+}
+
+.homegotstory{
+  width:100%;
+  
 }
 
 header, footer {                  /* geldt voor header en footer */
