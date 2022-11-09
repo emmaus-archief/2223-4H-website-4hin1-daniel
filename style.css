@@ -32,7 +32,10 @@ body * {                          /* geldt voor alles in body */
   margin: 30px;
 }
 
-
+.homegotpic {
+  width:100%;
+  object-fit:cover;
+}
 
 header, footer {                 /* geldt voor header en footer */
   margin: 10px 0px;
