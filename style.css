@@ -30,26 +30,11 @@ body * {                          /* geldt voor alles in body */
   border: solid 10px;
   float:left;
   margin: 30px;
-  
-
 }
 
-.pagehome2{
-  height: 300px;
-  width: 300px;
-  border: solid 10px;
-  float:left;
-  position: relative; 
-  top: 0px;
-  left: 570px;
-}
 
-.homegotstory{
-  width:100%;
-  
-}
 
-header, footer {                  /* geldt voor header en footer */
+header, footer {                 /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
