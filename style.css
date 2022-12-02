@@ -32,11 +32,20 @@ body * {                          /* geldt voor alles in body */
   margin: 30px;
 }
 
-.homegotpic {
+.homegotpic1 {
   width:100%;
-  object-fit:cover;
 }
-
+.homegotpic2 {
+  object-fit:cover;
+  width:150%;
+  }
+.homegotpic3 {
+  object-fit:cover;
+  width:180%;
+  position:relative;
+  right:120px;
+}
+  
 header, footer {                 /* geldt voor header en footer */
   margin: 10px 0px;
 }
