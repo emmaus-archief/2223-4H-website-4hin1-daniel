@@ -45,7 +45,33 @@ body * {                          /* geldt voor alles in body */
   position:relative;
   right:120px;
 }
-  
+.homegotpic4 {
+  object-fit:cover;
+  width:100%;
+}
+.homegotpic5 {
+  object-fit:cover;
+  width:110%;
+}
+.homegotpic6 {
+  object-fit:cover;
+  width:182%;
+  position:relative;
+  right:100px;
+}
+.homegotpic7 {
+  object-fit:cover;
+  width:184%;
+  position:relative;
+  right:120px;
+}
+.homegotpic8 {
+  object-fit:cover;
+  width:180%;
+  position:relative;
+  right:70px;
+}
+
 header, footer {                 /* geldt voor header en footer */
   margin: 10px 0px;
 }
