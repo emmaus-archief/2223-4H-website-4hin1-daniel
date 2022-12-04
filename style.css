@@ -1,7 +1,7 @@
 /* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
 * {                                          /* geldt voor alles */
-    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
+    border: 1px dotted black;          /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
@@ -22,6 +22,7 @@ body * {                          /* geldt voor alles in body */
 .title {
   width: 100%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto; 
+  
   /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 .pagehome{
@@ -30,6 +31,9 @@ body * {                          /* geldt voor alles in body */
   border: solid 10px;
   float:left;
   margin: 30px;
+  border-style:ridge;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .homegotpic1 {
@@ -71,6 +75,9 @@ body * {                          /* geldt voor alles in body */
   position:relative;
   right:70px;
 }
+
+
+
 
 header, footer {                 /* geldt voor header en footer */
   margin: 10px 0px;
