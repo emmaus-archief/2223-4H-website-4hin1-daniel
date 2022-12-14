@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+    background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -21,7 +21,7 @@ body * {                          /* geldt voor alles in body */
 
 .title {
   width: 100%;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;
+  margin: auto;
   background-image: linear-gradient(#939393 0%, #676767 100%);
   
   /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
@@ -30,13 +30,14 @@ body * {                          /* geldt voor alles in body */
   border:solid 2px red;
   width: fit-content;
   margin:auto;
+
 }
-.pagehome{
+.pagehome {
   height: 480px;
   width: 480px;
   border: solid 10px;
-float:left;
- margin:35px;
+  /*float:left;*/
+  margin:35px;
   border-style:ridge;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -82,7 +83,9 @@ float:left;
   right:70px;
 }
 
-
+.testdiv{
+  margin:auto;
+}
 
 
 header, footer {                 /* geldt voor header en footer */
