@@ -1,7 +1,7 @@
 /* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
 * {                                          /* geldt voor alles */
-    border: 1px dotted black;          /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
+   /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
@@ -10,7 +10,7 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-image: linear-gradient(#939393 0%, #676767 100%);/*/* achtergrondkleur lichtgrijs */ 
-  font-family: serif;/* tekstkleur donkergrijs */
+  font-family: serif;            /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -21,16 +21,22 @@ body * {                          /* geldt voor alles in body */
 
 .title {
   width: 100%;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto; 
+  margin: 10px auto;
+  background-image: linear-gradient(#939393 0%, #676767 100%);
   
   /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
+.pagehome-container {
+  border:solid 2px red;
+  width: fit-content;
+  margin:auto;
+}
 .pagehome{
-  height: 300px;
-  width: 300px;
+  height: 480px;
+  width: 480px;
   border: solid 10px;
-  float:left;
-  margin: 30px;
+float:left;
+ margin:35px;
   border-style:ridge;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
