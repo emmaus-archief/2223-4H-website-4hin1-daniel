@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-   background-color: rgba(0,0,0,5%);    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+  background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -74,10 +74,9 @@ body * {                          /* geldt voor alles in body */
 }
 
 .hometitlepage {
-  display:flex ;
-  align-items:center ;
-  justify-content: center;
-  vertical-align: middle;
+  position: relative;
+  top:200px;
+  
 }
 
 .homegotpic1 {
