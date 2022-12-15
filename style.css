@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+   background-color: rgba(0,0,0,5%);    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -29,10 +29,24 @@ body * {                          /* geldt voor alles in body */
 .pagehome-container {
   border:solid 2px red;
   width: fit-content;
-  margin:auto;
-
+  margin:auto; 
+  /*border-style:hidden;*/
 }
-.pagehome {
+
+
+.pagehomeleft {
+  height: 500px;
+  width: 500px;
+  /*border: solid 10px;*/
+  float:left;
+  margin:35px;
+  /*border-style:ridge;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;*/
+}
+
+  
+.pagehomemid {
   height: 500px;
   width: 500px;
   border: solid 10px;
@@ -43,13 +57,27 @@ body * {                          /* geldt voor alles in body */
   border-top-left-radius: 20px;
 }
 
+
+.pagehomeright {
+  height: 500px;
+  width: 500px;
+  border-left: solid 5px;
+  float:left;
+  margin:35px;
+  border-left-style:ridge;
+  
+}
+
+
 .testdiv2{
   float:left;
 }
 
-.hometitletimeline {
-  
-  text-align:center;
+.hometitlepage {
+  display:flex ;
+  align-items:center ;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 .homegotpic1 {
@@ -105,7 +133,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;    
   color:#FE5800;
-  word-spacing:20px; /* tekst centreren */
+  word-spacing:20px;               /* tekst centreren */
 } 
 
 p {
