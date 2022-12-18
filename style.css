@@ -76,7 +76,7 @@ body * {                          /* geldt voor alles in body */
 .hometitlepage {
   position: relative;
   top:200px;
-  
+  word-spacing: 2px; 
 }
 
 .homegotpic1 {
