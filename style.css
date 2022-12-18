@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-  background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+  /*background-color: rgba(0,0,0,5%);*/   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -30,19 +30,16 @@ body * {                          /* geldt voor alles in body */
   border:solid 2px red;
   width: fit-content;
   margin:auto; 
-  /*border-style:hidden;*/
+  border-style:hidden;
 }
 
 
 .pagehomeleft {
   height: 500px;
   width: 500px;
-  /*border: solid 10px;*/
   float:left;
   margin:35px;
-  /*border-style:ridge;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;*/
+  background-image: radial-gradient(orange, #838383, #676767);
 }
 
   
@@ -61,22 +58,25 @@ body * {                          /* geldt voor alles in body */
 .pagehomeright {
   height: 500px;
   width: 500px;
-  border-left: solid 5px;
   float:left;
   margin:35px;
-  border-left-style:ridge;
-  
-}
-
-
-.testdiv2{
-  float:left;
 }
 
 .hometitlepage {
   position: relative;
   top:200px;
   word-spacing: 2px; 
+  font-size:70px;
+  }
+
+.homeinfopage {
+  position: relative;
+  font-size:30px;
+  line-height: 24px;
+  text-align: center;
+  top:50%;
+  transform: translateY(-50%);
+  
 }
 
 .homegotpic1 {
@@ -104,13 +104,13 @@ body * {                          /* geldt voor alles in body */
   object-fit:cover;
   width:182%;
   position:relative;
-  right:100px;
+  right:170px;
 }
 .homegotpic7 {
   object-fit:cover;
   width:184%;
   position:relative;
-  right:120px;
+  right:190px;
 }
 .homegotpic8 {
   object-fit:cover;
