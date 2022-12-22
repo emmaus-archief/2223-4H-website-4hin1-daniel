@@ -9,7 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-image:  #676767 );/*/* achtergrondkleur lichtgrijs */ 
+  background-color:  #ac9595 ;/*/* achtergrondkleur lichtgrijs */ 
   font-family: serif;            /* tekstkleur donkergrijs */
 }  
 
@@ -123,6 +123,37 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* css code homepage stopt en timeline begint*/
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.container {
+  padding: 10px 50px;
+  position:relative;
+  width: 50%;
+  background: rgba(0,0,0,0.3)
+  
+}
+
+.textbox {
+  padding: 20px 30px;
+  background: #ffff;
+  position: relative;
+  border-radius:6px;
+  font-size: 15px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
 
 
 
