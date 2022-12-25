@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-  /*background-color: rgba(0,0,0,5%);*/   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+/*background-color: rgba(0,0,0,5%);*/    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -135,7 +135,7 @@ body * {                          /* geldt voor alles in body */
   position:relative;
   width: 50%;
   background: rgba(0,0,0,0.3)
-  
+ 
 }
 
 .textbox {
@@ -144,18 +144,42 @@ body * {                          /* geldt voor alles in body */
   position: relative;
   border-radius:6px;
   font-size: 15px;
+
 }
 
 .left {
+  overflow: visible;
   left: 0;
 }
 
 .right {
+  overflow: visible;
   left: 50%;
 }
 
+.container img {
+  position: absolute;
+  width: 40px;
+  border-radius:50% ;
+  right: -20px;
+  top: 32px;
+  z-index:10;
+ }
 
+.right img{
+  left: -20px;
+}
 
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top:0;
+  left:50%;
+  
+}
 
 
 
