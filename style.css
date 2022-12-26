@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-/*background-color: rgba(0,0,0,5%);*/    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+/*background-color: rgba(0,0,0,5%);*/   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -14,7 +14,7 @@ html, body {                      /* geldt voor html en body */
 }  
 
 body * {                          /* geldt voor alles in body */
-  overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  /*overflow: hidden;*/               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
   box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
   margin: 0px;                    /* standaard marge 0 */
 }
@@ -55,6 +55,7 @@ body * {                          /* geldt voor alles in body */
   border-style:ridge;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
+  overflow: hidden;
 }
 
 
@@ -134,7 +135,7 @@ body * {                          /* geldt voor alles in body */
   padding: 10px 50px;
   position:relative;
   width: 50%;
-  background: rgba(0,0,0,0.3)
+  
  
 }
 
@@ -159,15 +160,17 @@ body * {                          /* geldt voor alles in body */
 
 .container img {
   position: absolute;
-  width: 40px;
+  width: 50px;
   border-radius:50% ;
-  right: -20px;
-  top: 32px;
+  right: -25px;
+  top: 37%;
   z-index:10;
+  background-color: white;
+  padding: 4px;
  }
 
 .right img{
-  left: -20px;
+  left: -25px;
 }
 
 .timeline::after {
@@ -178,10 +181,34 @@ body * {                          /* geldt voor alles in body */
   background: #fff;
   top:0;
   left:50%;
-  
+  margin-left:-3px;
+  z-index: 0;
 }
 
+.left-container-arrow {
+   height: 0;
+   width:0 ;
+   position:absolute ;
+   top:37%;
+   z-index: 2;
+   border-top: 15px solid transparent ;
+   border-bottom: 15px solid transparent ;
+   border-left: 15px solid #fff ;
+   right: -15px;
+   
+}
 
+.right-container-arrow {
+   height: 0;
+   width:0 ;
+   position:absolute ;
+   top:37%;
+   z-index: 1;
+   border-top: 15px solid transparent ;
+   border-bottom: 15px solid transparent ;
+   border-right: 15px solid #fff ;
+   left: -15px;
+}
 
 
 
