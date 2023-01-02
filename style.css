@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
    /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-background-color: rgba(0,0,0,5%);    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+/*background-color: rgba(0,0,0,5%);*/    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -129,7 +129,7 @@ body * {                          /* geldt voor alles in body */
   position: relative;
   max-width: 1200px;
   margin: 50px auto;
-  
+  min-width:1200px;
 }
 
 .container {
@@ -137,7 +137,6 @@ body * {                          /* geldt voor alles in body */
   position:relative;
   width: 50%;
   
- 
 }
 
 .textbox {
@@ -146,7 +145,6 @@ body * {                          /* geldt voor alles in body */
   position: relative;
   border-radius:6px;
   font-size: 15px;
-  max-height: 300px;
   
 }
 
@@ -198,6 +196,7 @@ body * {                          /* geldt voor alles in body */
   z-index: 0;
   border-style: inset;
   border-radius: 30px;
+  
 }
 
 .left-container-arrow {
@@ -224,6 +223,23 @@ body * {                          /* geldt voor alles in body */
    border-right: 15px solid #fff ;
    left: -15px;
 }
+
+.timelinenav {
+  min-width: 1200px;
+}
+
+ /*timeline css eindigt en  characters css begint*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
