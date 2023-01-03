@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
     /*border: 1px dotted black;*/        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+/*background-color: rgba(0,0,0,5%);*/   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -236,27 +236,32 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 
  /*timeline css eindigt en  characters css begint*/
 
-.CharactersStarks{
-  border: 1px solid red;
-  border-style: hidden;
+.charactersContainer{
+  /*border: 1px solid red;*/
+  max-width:1500px ;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 
 .charactersbar {
   background-color: #a600ff;
-  margin-top: 20px;
+  margin-top: 10px;
   /*border: 0px solid red;*/
   
 }
 
 .Characterspictures {
  float:left;
- margin:0px;
- 
+  
 }
 
 .Characterimgcontainer {
   float: left;
   min-height: 300px;
+  max-height: 300px;
+  margin-bottom:5px;
   
 }
 
