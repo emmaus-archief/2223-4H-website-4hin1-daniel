@@ -1,8 +1,8 @@
 /* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
 * {                                          /* geldt voor alles */
-   /* border: 1px dotted black; */        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-/*background-color: rgba(0,0,0,5%);*/    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+    /*border: 1px dotted black;*/        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
+background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -14,7 +14,7 @@ html, body {                      /* geldt voor html en body */
 }  
 
 body * {                          /* geldt voor alles in body */
-  /*overflow: hidden;*/               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
+overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
   box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
   margin: 0px;                    /* standaard marge 0 */
 }
@@ -42,7 +42,7 @@ body * {                          /* geldt voor alles in body */
   width: 500px;
   float:left;
   margin:35px;
-  background-image: radial-gradient(orange, #838383, #676767);
+  background-image: radial-gradient(orange, #ac9595, #ac9595);
 }
 
   
@@ -121,6 +121,12 @@ body * {                          /* geldt voor alles in body */
   width:180%;
   position:relative;
   right:70px;
+}
+
+.homegotpic9 {
+  object-fit:cover;
+  width:128%;
+  
 }
 
 /* css code homepage stopt en timeline begint*/
@@ -230,10 +236,33 @@ body * {                          /* geldt voor alles in body */
 
  /*timeline css eindigt en  characters css begint*/
 
+.CharactersStarks{
+  border: 1px solid red;
+  border-style: hidden;
+}
 
+.charactersbar {
+  background-color: #a600ff;
+  margin-top: 20px;
+  /*border: 0px solid red;*/
+  
+}
 
+.Characterspictures {
+ float:left;
+ margin:0px;
+ 
+}
 
+.Characterimgcontainer {
+  float: left;
+  min-height: 300px;
+  
+}
 
+.Charactertitles {
+text-align: center;  
+}
 
 
 
@@ -262,8 +291,6 @@ p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
-
-/* Indeling voor hoofd pagina */
 
 
 /* Opmaak voor alle pagina's */
