@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
     /*border: 1px dotted black;*/        /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-/*background-color: rgba(0,0,0,5%);*/   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+background-color: rgba(0,0,0,5%);    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -236,44 +236,158 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 
  /*timeline css eindigt en  characters css begint*/
 
+
+.Characterspage {
+  background-image: linear-gradient(to bottom right, #ac9595, #705656);
+}
+
+
 .charactersContainer{
   /*border: 1px solid red;*/
   max-width:1500px ;
   margin:auto;
   margin-top: 30px;
   margin-bottom: 30px;
-
+  background-color: rgba(0, 0, 0, 10%);
 }
 
 .charactersbar {
   background-color: #a600ff;
   margin-top: 10px;
-  /*border: 0px solid red;*/
+  border: 5px solid #a600ff;
+  border-radius:5px ;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-right-style:outset;
+  border-bottom-style:outset;
+  border-top-color: #b833ff;
+  border-left-color: #b833ff;
   
 }
 
 .Characterspictures {
  float:left;
-  
+ border:8px groove #ffff80; 
+ border-radius: 2px; 
 }
 
 .Characterimgcontainer {
   float: left;
   min-height: 300px;
-  max-height: 300px;
+  max-height: 301px;
   margin-bottom:5px;
-  
+  margin-top:10px;
+  margin-left:0px;
+  margin-right:10px;
 }
 
 .Charactertitles {
-text-align: center;  
+  text-align: center;  
+  font-family: fantasy, "papyrus" ; 
+  font-weight: bold;
+  line-height: 20px;
+}
+
+/* character ccs eindigt en noble houses begint*/
+
+.NHpage {
+  min-width: 800px;
+}
+
+.housestitle {
+  margin-top: 35px;
+  font-size:45px; 
+}
+
+.housesexplbox{
+  text-align:center;
+  padding:20px;
+
+}
+
+.housesexplained {
+  background-color:rgba(0, 0, 0, 10%) ;
+  border-radius: 5px;
+  width:700px;
+  height:400px;
+  display:inline-block;
+  margin: 80px;
+
 }
 
 
+.nhousesexplained{
+  background-color:rgba(0, 0, 0, 10%) ;
+  border-radius: 5px;
+  width:550px;
+  height:350px;
+  margin:auto;
+  margin-top: 10px;
 
+}
 
+.nhousetext {
+  max-width: 500px ;
+  max-height: 270px;
+  overflow: scroll;
+  text-align: center;
+  position: relative;
+  left:20px;
+}
 
+.gvhousetext {
+  text-align: center;
+  overflow: scroll;
+  max-width: 650px;
+  max-height:320px;
+  position: relative;
+  left:20px;
+}
 
+.gvhousetext nhousetext::webkit-scrollbar{
+  display: none;
+}
+
+.gvhousesbar {
+  background-color:purple;
+}
+
+.greathouses {
+  background-color: white;
+  width:420px;
+  height:900px;
+  display: inline-block;
+  text-align: center;
+  margin:10px;
+  border-radius: 3px;
+}
+
+.greathousescontainer {
+ text-align: center;
+}
+
+.houseslogo {
+  width:150px;
+  height: 150px;
+  margin: 10px;
+  float: right;
+  
+}
+
+.ghousetext{
+text-align: left;
+  margin:2px;
+}
+
+.vassalhouses{
+  font-size:25px;
+  
+}
+
+.vhouselist{
+
+}
 
 
 
