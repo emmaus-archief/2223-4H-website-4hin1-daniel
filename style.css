@@ -80,6 +80,10 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
   text-align: center;
   top:50%;
   transform: translateY(-50%);
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 10%);
+  padding:3px;
   
 }
 
@@ -395,7 +399,7 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 }
 
 .ghousetext{
-text-align: left;
+  text-align: left;
   margin:2px;
 }
 
@@ -418,15 +422,162 @@ text-align: left;
  background-color: rgba(0, 0, 0, 10%);
 }
 
+/* NH css eindigt en LB css begint*/
 
-
-header, footer {                 /* geldt voor header en footer */
-  margin: 10px 0px;
+.LBtitle {
+  margin-top: 30px;
+  font-size:45px; 
 }
 
-main {                       
-  text-align: justify; 
-  /* tekst uitvullen */}
+.WWcontainer{
+
+  width: 1300px;
+  height: 1200px;
+  margin:auto;
+}
+
+.LBinfo {
+  width:650px;
+  height:400px;
+  float:left;
+  border:2px solid black;
+}
+
+
+.LBinfotxt{
+  overflow: scroll; 
+  text-align: left;
+  padding:8px;
+  width: 640px;
+  margin-left: 1px;
+  height:320px;
+  font-size: 20px;
+}
+
+.LBtopleft {
+  border-color:silver ;
+  border-bottom-width:5px ;
+  border-right-width:5px ;
+  border-bottom-style: ridge;
+  border-right-style:ridge ;
+  border-left-style:hidden ;
+  border-top-style:hidden;
+  border-bottom-left-radius:20px ;
+  border-top-right-radius:30px ;
+}
+
+.LBtopright {
+  border-color:silver ;
+  border-bottom-width:5px ;
+  border-left-width:5px ;
+  border-bottom-style: ridge;
+  border-right-style:hidden ;
+  border-left-style:groove ;
+  border-top-style:hidden;
+  border-top-left-radius:30px ;
+  border-bottom-right-radius: 20px;
+}
+
+.LBmiddleleft{
+  border-color:silver ;
+  border-bottom-width:5px ;
+  border-right-width:5px ;
+  border-top-width: 5px;
+  border-bottom-style: ridge;
+  border-right-style:ridge ;
+  border-top-style: groove;
+  border-left-style:hidden ;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius:20px ;
+}
+
+.LBmiddleright{
+  border-color:silver ;
+  border-bottom-width:5px ;
+  border-left-width:5px ;
+  border-top-width: 5px;
+  border-bottom-style: ridge;
+  border-left-style:groove ;
+  border-top-style: groove;
+  border-right-style:hidden ;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius:20px ;
+}
+
+.LBbottomleft {
+  border-color:silver ;
+  border-right-width:5px ;
+  border-top-width: 5px;
+  border-bottom-style: hidden;
+  border-right-style:ridge ;
+  border-top-style: groove;
+  border-left-style:hidden ;
+  border-top-left-radius: 20px ;
+  border-bottom-right-radius: 30px;
+}
+
+.LBbottomright{
+  border-color:silver ;
+  border-left-width:5px ;
+  border-top-width: 5px;
+  border-bottom-style: hidden;
+  border-right-style:hidden ;
+  border-top-style: groove;
+  border-left-style:groove ;
+  border-top-right-radius: 20px ;
+  border-bottom-left-radius: 30px;
+}
+
+
+.LBleftside{
+  
+  height:1200px;
+  width:650px;
+  float:left;
+}
+
+.LBrightside{
+
+  height:1200px;
+  width:650px;
+  float:right;
+}
+
+.leftDRinfo {
+  border-color:silver ;
+  border-bottom-width:8px ;
+  border-left-width:8px ;
+  border-top-width: 8px;
+  border-bottom-style: groove;
+  border-left-style:ridge ;
+  border-top-style: ridge;
+  border-right-style:hidden ;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius:20px 
+}
+
+.rightDRinfo{
+  border-color:silver ;
+  border-bottom-width:8px ;
+  border-right-width:8px ;
+  border-top-width: 8px;
+  border-bottom-style: groove;
+  border-right-style:groove ;
+  border-top-style: ridge;
+  border-left-style:hidden ;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius:20px ;
+}
+
+
+
+
+
+
+
+header {                 /* geldt voor header en footer */
+  margin: 10px 0px;
+}
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
@@ -445,11 +596,6 @@ p {
 
 h1, h2, h3 {
       color:#FE5800;
-}
-
-.smalltext {
-    text-align: center;
-    font-size: 0.7em;
 }
 
 a {
