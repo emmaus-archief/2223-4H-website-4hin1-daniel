@@ -597,7 +597,9 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 }
 
 
-
+.Dbreath {
+  width: 200px;
+}
 
 
 
