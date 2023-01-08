@@ -13,13 +13,6 @@ html, body {                      /* geldt voor html en body */
   font-family: serif;            /* tekstkleur donkergrijs */
 }  
 
-/*.main-colors{
-  background-color:#2f3932 ;
-  background-color:#2d5456 ;
-  background-color:#785a3e ;
-  background-color:#af7537 ;
-}*/
-
 
 body * {                          /* geldt voor alles in body */
 overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
@@ -164,16 +157,16 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
   padding: 10px 50px;
   position:relative;
   width: 50%;
-  
+  box-shadow:inset 0 5px 10px #2f3932;
 }
 
 .textbox {
   padding: 20px 30px;
   background:  #2d5456 ;
   position: relative;
-  border-radius:6px;
   font-size: 15px;
-  
+  box-shadow:inset 0 0 5px 10px #2f3932;
+  border-radius: 20px;
 }
 
 .timelinetext {
@@ -286,7 +279,13 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 .Characterspictures {
  float:left;
  border:8px groove #785a3e; 
- border-radius: 2px; 
+ border-radius: 2px;  
+ object-fit: cover; 
+ transition: transform 0.25s; 
+}
+
+.Characterspictures:hover{
+ transform: scale(1.1);
 }
 
 .Characterimgcontainer {
@@ -334,6 +333,7 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
   border-style: hidden;
   box-shadow: inset 0 0 5px 10px #2f3932;
 }
+
 
 
 .nhousesexplained{
@@ -386,14 +386,19 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 .greathouses {
   background-color: #2f3932;
   width:420px;
-  height:930px;
+  height:990px;
   display: inline-block;
   text-align: center;
   margin:10px;
   border-radius: 20px;
   border: 5px solid #785a3e;
   border-style: ridge;
-  
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.greathouses:hover{
+  opacity: 1;
 }
 
 .greathousescontainer {
@@ -422,6 +427,7 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 .ghousetext{
   text-align: left;
   margin:2px;
+  font-size: 17px;
 }
 
 .vassalhouses{
@@ -464,8 +470,12 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
   border:2px solid black;
   background-color:  #2d5456 ;
   box-shadow: inset 0 0 7px 2px #2f3932; 
+  transition: filter 0.2s;
 }
 
+.LBinfo:hover{
+  filter: brightness(125%);
+}
 
 .LBinfotxt{
   overflow: scroll; 
@@ -602,6 +612,9 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 }
 
 
+.LBpage{
+  min-width: 1500px;
+}
 
 
 header {                 /* geldt voor header en footer */
@@ -618,6 +631,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
+  font-size: 20px;
 }
 
 
