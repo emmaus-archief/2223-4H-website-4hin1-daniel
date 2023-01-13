@@ -71,10 +71,50 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 
 .hometitlepage {
   position: relative;
+  left: 30px;
   top:200px;
   word-spacing: 2px; 
   font-size:70px;
+  margin: auto;
   }
+
+.arrow {
+  display: inline-block;
+  padding: 15px;
+  transform: rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  border: solid #af7537;
+  border-width: 0 5px 5px 0;
+  position: relative;
+  left:51px;
+}
+
+#arrow2 {
+  left: 35px;
+}
+#HTP2{
+  left:16px;
+}
+#arrow3{
+  left: 5px;
+}
+#HTP3{
+  left:20px;
+}
+#arrow4{
+  left: 20px;
+}
+#HTP4{
+  left: -5px;
+}
+
+@media only screen and (max-width: 1156px) {
+
+ .arrow {
+  border-style: hidden;
+}
+}
+
 
 .homeinfopage {
   position: relative;
@@ -87,51 +127,29 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
   box-shadow: inset 0 0 5px 5px #2f3932;
 }
 
-.homegotpic1 {
-  width:100%;
-}
-.homegotpic2 {
+
+#homegotpic2 {
   object-fit:cover;
   width:150%;
   }
-.homegotpic3 {
+#homegotpic3 {
   object-fit:cover;
   width:180%;
   position:relative;
   right:120px;
 }
-.homegotpic4 {
+#homegotpic4 {
   object-fit:cover;
   width:100%;
 }
-.homegotpic5 {
-  object-fit:cover;
-  width:110%;
-}
-.homegotpic6 {
-  object-fit:cover;
-  width:182%;
-  position:relative;
-  right:170px;
-}
-.homegotpic7 {
-  object-fit:cover;
-  width:184%;
-  position:relative;
-  right:190px;
-}
-.homegotpic8 {
+
+#homegotpic8 {
   object-fit:cover;
   width:180%;
   position:relative;
   right:70px;
 }
-
-.homegotpic9 {
-  object-fit:cover;
-  width:128%;
   
-}
 
 .pagehomemid:hover {
   filter: brightness(70%);
