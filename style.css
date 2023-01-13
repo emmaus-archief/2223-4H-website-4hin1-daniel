@@ -298,12 +298,12 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
  float:left;
  border:8px groove #785a3e; 
  border-radius: 2px;  
- object-fit: cover; 
  transition: transform 0.25s; 
+ object-fit: cover; 
 }
 
 .Characterspictures:hover{
- transform: scale(1.1);
+ transform: scale(1.2);
 }
 
 .Characterimgcontainer {
