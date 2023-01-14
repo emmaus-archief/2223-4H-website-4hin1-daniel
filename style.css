@@ -469,13 +469,14 @@ overflow: hidden;               /* zorgt dat DIV en andere block elementen de ho
 
 /* NH css eindigt en LB css begint*/
 
+
+
 .LBtitle {
   margin-top: 30px;
   font-size:45px; 
 }
 
 .WWcontainer{
-
   width: 1300px;
   height: 1200px;
   margin:auto;
